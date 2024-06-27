@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Paragraph and Class Control</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>#DOM</h1>
+    <p id="sampleParagraph">This is a sample paragraph.</p>
+    <input type="text" id="classInput" placeholder="Enter class name">
+    <button onclick="addClass()">Add Class</button>
+    
+    <h1>Paragraph </h1>
+    <section id="container">
+        <p id="para1" class="visible">Paragraph 1</p>
+        <button onclick="toggleVisibility('para1')"> Paragraph 1</button>
+        
+        <p id="para2" class="visible">Paragraph 2</p>
+        <button onclick="toggleVisibility('para2')"> Paragraph 2</button>
+        
+        <p id="para3" class="visible">Paragraph 3</p>
+        <button onclick="toggleVisibility('para3')"> Paragraph 3</button>
+    </section>
+
+    
+    <button id="changeTextButton" onclick="changeButtonText(this)">Click Me</button>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
